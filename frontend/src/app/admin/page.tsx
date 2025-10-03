@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import MenuDay from '@/components/MenuDay'
-import Dialog from '@/components/Dialog'
+import Popup from '@/components/Popup'
 
 interface Item {
   name: string
@@ -133,7 +133,7 @@ export default function AdminPage() {
         </div>
       </div>
 
-      <Dialog
+      <Popup
         isOpen={modalOpen}
         onClose={() => setModalOpen(false)}
         message={modalMessage}

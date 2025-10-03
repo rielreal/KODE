@@ -4,7 +4,7 @@ interface Props {
   message: string
 }
 
-export default function Dialog({ isOpen, onClose, message }: Props) {
+export default function Popup({ isOpen, onClose, message }: Props) {
   if (!isOpen) return null
 
   return (
