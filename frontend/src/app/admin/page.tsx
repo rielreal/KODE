@@ -100,7 +100,7 @@ export default function AdminPage() {
       <div className="bg-[#004E64] text-white py-8 mb-10">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-3xl font-bold mb-2">Admin - Kantinmeny</h1>
-          <p className="text-[#5BA3C0] text-lg">Administrer ukens meny</p>
+          <p className="text-blue-100 text-lg">Administrer ukens meny</p>
           <p className="text-sm mt-2 opacity-80">Uke {weekNumber}</p>
         </div>
       </div>
